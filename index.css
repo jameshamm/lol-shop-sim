@@ -1,0 +1,21 @@
+#shop_window {
+    color: #559999;
+    background: #003333;
+    min-height: 640px;
+    min-width: 640px;
+    float: left;
+}
+
+#selection_pane {
+    float: left;
+    width: 46%;
+    position: relative;
+    overflow: hidden;
+}
+
+#display_pane {
+    float: left;
+    width: 46%;
+    position: relative;
+    overflow: hidden;
+}

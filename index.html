@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>LOL Shop</title>
+
+    <link rel="stylesheet" href="index.css" type="text/css">
+
+    <script src="item.js"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+    <div id="shop_window">
+        <div id="selection_pane">
+            <p>I like text</p>
+            <div tabs>
+                <button type="button" onclick="switchToRecommended()">Recommended</button>
+                <button type="button" onclick="switchToAllItems()">All Items</button>
+            </div>
+            <div id="storeroom"></div>
+        </div>
+        <div id="display_pane">
+            <div id="builds_into"></div>
+            <div id="builds_from"></div>
+            <div id="selected_item"></div>
+        </div>
+    </div>
+</body>
+</html>
